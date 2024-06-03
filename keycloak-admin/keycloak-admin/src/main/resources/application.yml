@@ -1,0 +1,30 @@
+server:
+  port: 8181
+
+spring:
+  application:
+    name: keycloak-admin
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://localhost:8080/realms/el-aparato-carlap
+
+jwt:
+  auth:
+    converter:
+      principal-attribute: preferred_username
+      resource-id: api-internal-users-client
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+dh:
+  keycloak:
+    serverUrl: http://localhost:8080
+    realm: el-aparato-carlap
+    clientId: api-internal-users-client
+    clientSecret: R2hClfN0JuhCimaBgU0PCvbzyPvpMd96

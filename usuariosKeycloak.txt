@@ -1,0 +1,3 @@
+admin-user: 1234 - admin-client-role
+vendedor-user: 1234 - vendedor-client-role
+repositor-user: 1234 - repositor-client-role
