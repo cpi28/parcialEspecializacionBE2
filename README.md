@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación de microservicios desarrollada con Spring Boot. Contiene los siguientes componentes:
 
-- **El Aparato:** Un microservicio central que maneja las funcionalidades principales del sistema.
+- **El Aparato:** Un microservicio central que maneja las funcionalidades principales del sistema, actuando como un servidor de recursos.
 - **API Gateway:** Un punto de entrada único para todas las peticiones externas. El API Gateway dirige las solicitudes a los microservicios correspondientes.
 - **Gestor de Usuarios con Keycloak:** Un componente encargado de la autenticación y autorización de los usuarios utilizando Keycloak.
 
