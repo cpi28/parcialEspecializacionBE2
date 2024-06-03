@@ -22,7 +22,7 @@ Antes de ejecutar el proyecto, asegúrate de tener instalado lo siguiente:
 
 - Java JDK 8 o superior
 - Maven
-- Docker (para la ejecución de Keycloak, importar el realm.json que se adjunta con este proyecto)
+- Docker para la ejecución de Keycloak (importar el realm.json que se adjunta con este proyecto y crear los usuarios como figuran en el archivo.txt)
 - Workbench para la base de datos SQL (se debera crear la base elaparato antes de ejecutar el microservicio)
 
 ### Configuración del Entorno
